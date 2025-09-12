@@ -3,3 +3,9 @@ tr,th,td{
     border-collapse: collapse;
     padding: 1vh 1vw;
 }
+caption{
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1vh;
+}

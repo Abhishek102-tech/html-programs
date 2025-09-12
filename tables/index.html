@@ -8,21 +8,25 @@
 </head>
 <body>
     <table>
+        <thead>
+        <caption>This is a table</caption>
         <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
+            <th colspan="2">Header 1</th>
             <th>Header 3</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
-            <td>Row 1, Cell 1</td>
+            <td rowspan="2">Row 1, Cell 1</td>
             <td>Row 1, Cell 2</td>
             <td>Row 1, Cell 3</td>
         </tr>
         <tr>
-            <td>Row 2, Cell 1</td>
             <td>Row 2, Cell 2</td>
             <td>Row 2, Cell 3</td>
         </tr>
+        </tbody>
+        
     </table>
 </body>
 </html>
