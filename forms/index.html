@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <fieldset>
+    <legend>Log In form</legend>
     <h1>Log In Page</h1>
     <form >
         <label for="username">Username:</label>
@@ -17,7 +19,32 @@
         <br><br>
         <button type="submit">Log In</button>
         <button id="create Account">Create New Account</button>
+        <h2>Select preferred language</h2>
+        <select name="language" id="lang">
+            <option value="hi">Hindi</option>
+            <option value="en">English</option>
+            <option value="sn">Sanskrit</option>
+        </select>
+        <h2>Do you prefer?</h2>
+        <ul >
+            <li><input type="checkbox" id="email" name="email" value="email">
+                <label for="email">Email</label></li>
+            <li><input type="checkbox" id="sms" name="sms" value="sms">
+                <label for="sms">SMS</label></li>
+            <li><input type="checkbox" id="phone" name="phone" value="phone">
+                <label for="phone">Phone Call</label></li>
+        </ul>
+        <h2>Languages Learnt?</h2>
+        <ul>
+            <li><input type="radio" id="hindi" name="learnt" value="hindi">
+                <label for="hindi">Hindi</label></li>
+            <li><input type="radio" id="english" name="learnt" value="english">
+                <label for="english">English</label></li>
+            <li><input type="radio" id="sanskrit" name="learnt" value="sanskrit">
+                <label for="sanskrit">Sanskrit</label></li>
+        </ul>
     </form>
+    </fieldset>
     <script src="script.js"></script>
 </body>
 </html>
